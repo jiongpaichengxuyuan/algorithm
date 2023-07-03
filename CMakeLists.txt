@@ -14,3 +14,4 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY
 # ---------------------------
 
 add_subdirectory(algorithms)
+add_subdirectory(tests)

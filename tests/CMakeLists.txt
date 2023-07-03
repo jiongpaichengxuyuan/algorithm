@@ -1,0 +1,2 @@
+add_executable(construct_binary_tree construct_binary_tree.cc)
+target_link_libraries(construct_binary_tree PUBLIC algorithms)
