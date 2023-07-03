@@ -67,8 +67,7 @@ void PrintBinaryTreePreIteratively(BinaryTreeNode *root) {
 }
 
 // 迭代中序遍历
-// 思路：
-// 利用cur_node指针遍历二叉树，利用栈处理节点，只要当前cur_node是nullptr，那么就可以进行处理，即当前栈顶的节点需要被处理
+// 思路：利用cur_node指针遍历二叉树，利用栈处理节点，只要当前cur_node是nullptr，那么就可以进行处理，即当前栈顶的节点需要被处理
 void PrintBinaryTreeInIteratively(BinaryTreeNode *root) {
   if (root == nullptr) return;
   std::stack<BinaryTreeNode *> node_stack;
@@ -87,6 +86,7 @@ void PrintBinaryTreeInIteratively(BinaryTreeNode *root) {
 }
 
 // 迭代后序遍历
+// 思路：神奇的思路，前序遍历是中左右的顺序，但是也可以是中右左，如果中右左反过来就是左右中，正好是后序遍历，因此按照前序遍历的方法，左右子节点入栈顺序反一下，再将最后的结果reverse即可
 void PrintBinaryTreePostIteratively(BinaryTreeNode *root) {
   if (root == nullptr) return;
   std::stack<BinaryTreeNode *> node_stack;
