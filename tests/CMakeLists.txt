@@ -1,2 +1,5 @@
 add_executable(construct_binary_tree construct_binary_tree.cc)
 target_link_libraries(construct_binary_tree PUBLIC algorithms)
+
+add_executable(sort_test sort_test.cc)
+target_link_libraries(sort_test PUBLIC algorithms)
