@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/sort_test.dir/sort_test.cc.o -o ../../../bin/Debug/sort_test  ../../../bin/Debug/libalgorithms.a 

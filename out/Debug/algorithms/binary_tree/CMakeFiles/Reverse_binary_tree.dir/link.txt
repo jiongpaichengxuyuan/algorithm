@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Reverse_binary_tree.dir/6.Reverse_binary_tree.cc.o -o ../../../../bin/Debug/Reverse_binary_tree  ../../../../bin/Debug/libalgorithms.a 

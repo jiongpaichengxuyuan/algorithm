@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/construct_binary_tree.dir/construct_binary_tree.cc.o -o ../../../bin/Debug/construct_binary_tree  ../../../bin/Debug/libalgorithms.a 

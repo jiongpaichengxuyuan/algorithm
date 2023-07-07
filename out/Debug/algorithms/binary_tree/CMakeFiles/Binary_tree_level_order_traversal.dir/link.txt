@@ -1,1 +1,0 @@
-/usr/bin/c++ -g CMakeFiles/Binary_tree_level_order_traversal.dir/5.Binary_tree_level_order_traversal.cc.o -o ../../../../bin/Debug/Binary_tree_level_order_traversal  ../../../../bin/Debug/libalgorithms.a 
