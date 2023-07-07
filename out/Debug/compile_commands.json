@@ -1,0 +1,27 @@
+[
+{
+  "directory": "/home/liuzh/src/algorithm/out/Debug/algorithms",
+  "command": "/usr/bin/c++  -I/home/liuzh/src/algorithm/utils -g -o CMakeFiles/algorithms.dir/algorithms.cc.o -c /home/liuzh/src/algorithm/algorithms/algorithms.cc",
+  "file": "/home/liuzh/src/algorithm/algorithms/algorithms.cc"
+},
+{
+  "directory": "/home/liuzh/src/algorithm/out/Debug/algorithms/binary_tree",
+  "command": "/usr/bin/c++  -I/home/liuzh/src/algorithm/utils -g -o CMakeFiles/Binary_tree_level_order_traversal.dir/5.Binary_tree_level_order_traversal.cc.o -c /home/liuzh/src/algorithm/algorithms/binary_tree/5.Binary_tree_level_order_traversal.cc",
+  "file": "/home/liuzh/src/algorithm/algorithms/binary_tree/5.Binary_tree_level_order_traversal.cc"
+},
+{
+  "directory": "/home/liuzh/src/algorithm/out/Debug/algorithms/binary_tree",
+  "command": "/usr/bin/c++  -I/home/liuzh/src/algorithm/utils -g -o CMakeFiles/Reverse_binary_tree.dir/6.Reverse_binary_tree.cc.o -c /home/liuzh/src/algorithm/algorithms/binary_tree/6.Reverse_binary_tree.cc",
+  "file": "/home/liuzh/src/algorithm/algorithms/binary_tree/6.Reverse_binary_tree.cc"
+},
+{
+  "directory": "/home/liuzh/src/algorithm/out/Debug/tests",
+  "command": "/usr/bin/c++  -I/home/liuzh/src/algorithm/utils -g -o CMakeFiles/construct_binary_tree.dir/construct_binary_tree.cc.o -c /home/liuzh/src/algorithm/tests/construct_binary_tree.cc",
+  "file": "/home/liuzh/src/algorithm/tests/construct_binary_tree.cc"
+},
+{
+  "directory": "/home/liuzh/src/algorithm/out/Debug/tests",
+  "command": "/usr/bin/c++  -I/home/liuzh/src/algorithm/utils -g -o CMakeFiles/sort_test.dir/sort_test.cc.o -c /home/liuzh/src/algorithm/tests/sort_test.cc",
+  "file": "/home/liuzh/src/algorithm/tests/sort_test.cc"
+}
+]
