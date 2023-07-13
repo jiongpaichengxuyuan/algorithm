@@ -1,0 +1,2 @@
+add_executable(climb_stairs climb_stairs.cc)
+target_link_libraries(climb_stairs algorithms)
