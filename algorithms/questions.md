@@ -16,6 +16,8 @@
     * 9.split_palindrome_string.cc
         * 131分割回文串，思路：首先一个字符串是一个整体，从第0个位置开始分割，剪枝条件为判断当前分割出来的字串是否是回文串，是则push，否则continue，并且第一轮循环i=0,index=0，因此相当于将字符串分割成了一个一个的字符，第二轮会将头两个字符组成字符串，剩下的仍然是单个字符。递归的终止条件是index>=s.size()
     * 机器人的运动范围：easy
+    * 10.recovery_ip_address.cc
+        * 94复原IP地址，还是挺简单的，每一次都判断子串是否符合条件即可
 
 * dynamic_planning
     * 4.climb_stairs.cc
@@ -26,3 +28,5 @@
         * 96n个不同节点二叉搜索树的结构数量、
     * 12.01_backpack_problem.cc
         * 01完全背包问题
+    * 13.divide_equal_sum_subsets.cc
+        * 416分割等和子集，就是01背包问题，只不过value就是weight本身

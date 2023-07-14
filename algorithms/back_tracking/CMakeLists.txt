@@ -13,3 +13,6 @@ target_link_libraries(the_range_of_motion_of_the_robot algorithms)
 
 add_executable(9.split_palindrome_string 9.split_palindrome_string.cc)
 target_link_libraries(9.split_palindrome_string algorithms)
+
+add_executable(10.recovery_ip_address 10.recovery_ip_address.cc)
+target_link_libraries(10.recovery_ip_address algorithms)
