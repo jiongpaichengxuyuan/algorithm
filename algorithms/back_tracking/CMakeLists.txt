@@ -16,3 +16,6 @@ target_link_libraries(9.split_palindrome_string algorithms)
 
 add_executable(10.recovery_ip_address 10.recovery_ip_address.cc)
 target_link_libraries(10.recovery_ip_address algorithms)
+
+add_executable(11.subsets 11.subsets.cc)
+target_link_libraries(11.subsets algorithms)

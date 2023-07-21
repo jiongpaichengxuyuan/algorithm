@@ -23,6 +23,24 @@ bool _416CanPartition(vector<int>& nums) {
   return false;
 }
 
+int _1049LastStoneWeightII(vector<int>& stones) {
+  long long sum = 0;
+  for (auto i : stones) {
+    sum += i;
+  }
+
+  long long target = sum / 2;
+  vector<int> dp(target + 1, 0);
+  sort(stones.begin(), stones.end());
+  for (int i = 0; i < stones.size(); ++i) {
+    for (int j = target; j >= stones[i]; j--) {
+      dp[j] = max(dp[j], dp[j - stones[i]] + stones[i]);
+    }
+  }
+
+  return sum - 2 * dp[target];
+}
+
 int main() {
   vector<int> nums{23, 13, 11, 7, 6, 5, 5};
   vector<int> nums2{1, 5, 11, 5};
