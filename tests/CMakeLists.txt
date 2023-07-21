@@ -3,3 +3,9 @@ target_link_libraries(construct_binary_tree PUBLIC algorithms)
 
 add_executable(sort_test sort_test.cc)
 target_link_libraries(sort_test PUBLIC algorithms)
+
+add_executable(map_struct_test map_struct_test.cc)
+target_link_libraries(map_struct_test algorithms)
+
+add_executable(priority_queue_test priority_queue_test.cc)
+target_link_libraries(priority_queue_test algorithms)
