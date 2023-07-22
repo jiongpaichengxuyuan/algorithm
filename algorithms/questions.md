@@ -18,6 +18,10 @@
     * 机器人的运动范围：easy
     * 10.recovery_ip_address.cc
         * 94复原IP地址，还是挺简单的，每一次都判断子串是否符合条件即可
+    * 11.subsets.cc
+        * 78子集，easy
+        * 90子集2，需要排序＋在同一层排除重复的
+        * 491找递增子序列，注意子序列是可以不连着的，同样需要注意在同一层排除重复，可以直接遍历，也可以利用hash
 
 * dynamic_planning
     * 4.climb_stairs.cc
@@ -30,3 +34,5 @@
         * 01完全背包问题
     * 13.divide_equal_sum_subsets.cc
         * 416分割等和子集，就是01背包问题，只不过value就是weight本身
+    * 16.find_target_sum_ways
+        * 494找到目标和的方法，数组里的数即可以加也可以减，那么就涉及到一个公式leaft+right=sum，left-right=target，so left = (sum + target) / 2，因此找到目标和为target的方法数即可

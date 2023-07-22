@@ -12,3 +12,6 @@ target_link_libraries(12.01_backpack_problem algorithms)
 
 add_executable(13.divide_equal_sum_subsets 13.divide_equal_sum_subsets.cc)
 target_link_libraries(13.divide_equal_sum_subsets algorithms)
+
+add_executable(16.find_target_sum_ways 16.find_target_sum_ways.cc)
+target_link_libraries(16.find_target_sum_ways algorithms)
